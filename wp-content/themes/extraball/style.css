@@ -1,0 +1,80 @@
+/* 
+Theme name: ExtraBall
+Author: Eric  
+Description: ExtraBall is a free WordPress theme for everyone. It is a clean and simple design with a lot of features.
+Theme URI: http://www.eric.com/extraball
+Version: 1.0
+*/
+
+body {
+    font-family: 'arial', sans-serif;
+    background-color: beige;
+    margin: 0;
+
+}
+
+h1 {
+    font-family: 'arial', sans-serif;
+    font-size: 2em;
+    color: #000;
+    text-align: center;
+}
+
+main {
+
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main#accueil {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #eee;
+    padding: 20px;
+
+}
+
+div[class^="menu-"] {
+    background-color: #eee;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.menu,
+footer p,
+body>h1 {
+    padding: 0;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu .menu-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu .menu-item a,
+main article a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu .menu-item a:hover,
+main article a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+article {
+    width: 300px;
+    margin-bottom: 20px;
+
+    background-color: #eee;
+}
